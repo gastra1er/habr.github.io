@@ -1,0 +1,35 @@
+.bgvideo {
+    height: 30vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: right;
+    /* align-items: center; */
+}
+
+.bgvideo video {
+    height: 30vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: 1;
+}
+
+/* Если фидео яркое */
+/* .effect {
+    height: 30vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.253);
+} */
+
+.video-text {
+    color: aquamarine;
+    z-index: 2;
+}
